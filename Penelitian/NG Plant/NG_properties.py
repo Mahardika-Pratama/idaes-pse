@@ -37,7 +37,7 @@ def build(self):
     super(HDAParameterData, self).build()
     self._state_block_class = IdealStateBlock
 
-    self. = Component()
+    self.CH4= Component()
     self.toluene = Component()
     self.methane = Component()
     self.hydrogen = Component()
