@@ -51,7 +51,7 @@ class HDAReactionParameterData(ReactionParameterBlock):
         '''
         super(HDAReactionParameterData, self).build()
 
-        self._reaction_block_class = HDAReactionBlock
+        self._reaction_block_class = _HDAReactionBlock
 
         # Rate Reaction Index
         self.rate_reaction_idx = Set(initialize=["R1"])
