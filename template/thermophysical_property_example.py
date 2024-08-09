@@ -55,7 +55,7 @@ class HDAParameterData(PhysicalParameterBlock):
         '''
         super(HDAParameterData, self).build()
 
-        self._state_block_class = HDAStateBlock
+        self._state_block_class = _HDAStateBlock
 
         self.benzene = Component()
         self.toluene = Component()
